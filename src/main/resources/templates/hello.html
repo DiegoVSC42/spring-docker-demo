@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Docker Demo</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #2c3e50;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            background-color: #6a5acd;
+            color: #f9f9f9;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .container:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        img {
+            width: 75px;
+            height: 75px;
+        }
+        .icons {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .docker{
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Olá, você está acessando uma aplicação Spring através de um container Docker!</h1>
+    <div class="icons">
+        <!-- Ícone do Spring -->
+        <img class="spring" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" />
+        <!-- Ícone do Docker -->
+        <img class = "docker"src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
+    </div>
+</div>
+</body>
+</html>
